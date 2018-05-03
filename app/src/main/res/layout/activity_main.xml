@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.xuanfeng.roundedstroketextview.MainActivity">
+
+    <com.xuanfeng.customtextviewlib.CustomTextView
+        app:stroke_color="#ff0000"
+        app:stroke_width="1dp"
+        app:topLeftRadius="20dp"
+        app:bottomRightRadius="20dp"
+        app:topRightRadius="20dp"
+        app:solid_color="#ffff00"
+        app:text_press_color="#000"
+        app:stroke_press_color="#000"
+        app:solid_press_color="#fff"
+        android:textColor="#0000ff"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="测试文字"/>
+
+    <com.xuanfeng.customtextviewlib.CustomTextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="椭圆Oval"
+        app:solid_color="#00f"
+        android:gravity="center"
+        app:shapeTpe="oval"
+        />
+
+
+</RelativeLayout>
