@@ -85,7 +85,7 @@ public class CustomTextView extends TextView {
 
     private void initData() {
         mGradientDrawable = new GradientDrawable();
-        mGradientDrawable.setGradientType(mShapeType);
+        mGradientDrawable.setShape(mShapeType);
         if (mShapeType == GradientDrawable.RECTANGLE) {
             if (mStrokeRadius != 0) {//统一设置圆角
                 mGradientDrawable.setCornerRadius(mStrokeRadius);
