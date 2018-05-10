@@ -143,8 +143,74 @@ public class CustomTextView extends TextView {
         return true;
     }
 
+    //============================方法区
     public void setSelection(boolean selection) {
         drawBackground(selection);
     }
 
+    public void setShapeType(int shapeType) {
+        mShapeType = shapeType;
+        drawBackground(false);
+    }
+
+    public void setStrokeRadius(float strokeRadius) {
+        mStrokeRadius = strokeRadius;
+        drawBackground(false);
+    }
+
+    public void setTopLeftRadius(float topLeftRadius) {
+        mTopLeftRadius = topLeftRadius;
+        drawBackground(false);
+    }
+
+    public void setTopRightRadius(float topRightRadius) {
+        mTopRightRadius = topRightRadius;
+        drawBackground(false);
+    }
+
+    public void setBottomLeftRadius(float bottomLeftRadius) {
+        mBottomLeftRadius = bottomLeftRadius;
+        drawBackground(false);
+    }
+
+    public void setBottomRightRadius(float bottomRightRadius) {
+        mBottomRightRadius = bottomRightRadius;
+        drawBackground(false);
+    }
+
+    public void setStrokeWidth(float strokeWidth) {
+        mStrokeWidth = strokeWidth;
+        drawBackground(false);
+    }
+
+    public void setStrokeColor(int strokeColor) {
+        mStrokeColor = strokeColor;
+        drawBackground(false);
+    }
+
+    public void setSolidColor(int solidColor) {
+        mSolidColor = solidColor;
+        drawBackground(false);
+    }
+
+    public void setStrokePressedColor(int strokePressedColor) {
+        mStrokePressedColor = strokePressedColor;
+        drawBackground(false);
+    }
+
+    public void setSolidPressedColor(int solidPressedColor) {
+        mSolidPressedColor = solidPressedColor;
+        drawBackground(false);
+    }
+
+    public void setTextPressColor(int textPressColor) {
+        mTextPressColor = textPressColor;
+        drawBackground(false);
+    }
+
+    @Override
+    public void setTextColor(int textColor) {
+        mTextColor = textColor;
+        drawBackground(false);
+    }
 }
