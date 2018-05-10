@@ -208,8 +208,7 @@ public class CustomTextView extends TextView {
         drawBackground(false);
     }
 
-    @Override
-    public void setTextColor(int textColor) {
+    public void setNormalTextColor(int textColor) {
         mTextColor = textColor;
         drawBackground(false);
     }
