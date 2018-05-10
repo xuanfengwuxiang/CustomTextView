@@ -8,6 +8,7 @@
     tools:context="com.xuanfeng.roundedstroketextview.MainActivity">
 
     <com.xuanfeng.customtextviewlib.CustomTextView
+        android:id="@+id/test"
         app:stroke_color="#ff0000"
         app:stroke_width="1dp"
         app:topLeftRadius="20dp"
