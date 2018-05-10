@@ -138,6 +138,7 @@ public class CustomTextView extends TextView {
                 break;
             case MotionEvent.ACTION_UP:
                 drawBackground(false);
+                performClick();
                 break;
         }
         return true;
