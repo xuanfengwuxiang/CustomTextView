@@ -11,5 +11,5 @@ allprojects {
   
   
   dependencies {
-	        implementation 'com.github.xuanfengwuxiang:CustomTextView:1.7'
+	        implementation 'com.github.xuanfengwuxiang:CustomTextView:2.2'
 	}
