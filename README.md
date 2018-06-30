@@ -13,3 +13,5 @@ allprojects {
   dependencies {
 	        implementation 'com.github.xuanfengwuxiang:CustomTextView:2.2'
 	}
+
+

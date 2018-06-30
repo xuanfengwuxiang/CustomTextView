@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.xuanfeng.roundedstroketextview.MainActivity">
 
@@ -35,5 +37,18 @@
         app:shapeTpe="oval"
         />
 
+    <com.xuanfeng.customtextviewlib.CustomTextView
+        app:stroke_color="@color/colorAccent"
+        app:stroke_width="1dp"
+        app:stroke_radius="10dp"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="长方形圆角"
+        app:solid_color="#00ff00"
+        android:gravity="center"
+        />
 
-</RelativeLayout>
+
+</LinearLayout>
