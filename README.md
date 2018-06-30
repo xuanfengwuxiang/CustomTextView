@@ -15,5 +15,5 @@ allprojects {
 
 
 
-![image](https://github.com/xuanfengwuxiang/CustomTextView/blob/master/photo/demo.jpg)
+![image](https://github.com/xuanfengwuxiang/CustomTextView/blob/master/photo/demo.png)
 
